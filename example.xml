@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<counter version="0.1">
+  <pages domain="localhost">
+    <page>
+      <file>/projects/M307-Counter/index.php</file>
+      <hits>23</hits>
+    </page>
+  </pages>
+</counter>

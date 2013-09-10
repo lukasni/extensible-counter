@@ -1,0 +1,4 @@
+# Ignore Sublime Text config files
+*.sublime-*
+phpdoc-*.log
+docs
