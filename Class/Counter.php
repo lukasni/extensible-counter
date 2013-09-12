@@ -6,7 +6,6 @@
  * Increments the stored count for a passed ID (e.g. Pagename) for each valid visit.
  * An implementation of IVisitDriver is used to validate visits.
  * 
- * @version 1.0
  * @author Lukas Niederberger <lukas.niederberger@gibmit.ch>
  * @copyright Lukas Niederberger, 2013
  * @license http://opensource.org/licenses/MIT The MIT License
@@ -40,7 +39,7 @@ class Counter {
 	 */
 	public function update()
 	{
-		if ($this->vdriver->validate() === FALSE)
+		if ($this->vdriver->validate($this->page) === FALSE)
 		{
 			return false;
 		}

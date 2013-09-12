@@ -5,7 +5,6 @@
  *
  * The data is stored in an XML file. Separate counters are kept for every page.
  *
- * @version 1.0
  * @author Lukas Niederberger <lukas.niederberger@gibmit.ch>
  * @copyright Lukas Niederberger, 2013
  * @license http://opensource.org/licenses/MIT The MIT License

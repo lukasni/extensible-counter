@@ -5,7 +5,7 @@
  */
 class Validation_Dummy implements IVisitDriver {
 	
-	public function validate()
+	public function validate($page)
 	{
 		return true;
 	}

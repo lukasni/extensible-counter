@@ -3,7 +3,6 @@
 /**
  * Helper class used for displaying debug variables.
  *
- * @version 1.0
  * @author Lukas Niederberger <lukas.niederberger@gibmit.ch>
  * @license http://opensource.org/licenses/MIT The MIT License
  */

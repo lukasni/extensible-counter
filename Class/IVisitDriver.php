@@ -5,6 +5,6 @@
  */
 interface IVisitDriver {
 
-	public function validate();
+	public function validate($page);
 
 }

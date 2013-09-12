@@ -9,9 +9,15 @@ class Validation_Session implements IVisitDriver {
 	 * @todo Not implemented yet
 	 * @return boolean True if the visit is valid.
 	 */
-	public function validate()
+	public function validate($page)
 	{
-		throw new Exception("Method not yet implemented!");
+		if(in_array($page, $_SESSION))
+		{
+			return false;
+		}
+		
+		$_SESSION[$page] = true;
+		return true;
 	}
 
 }
