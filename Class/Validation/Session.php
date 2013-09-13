@@ -1,12 +1,18 @@
 <?php
 
 /**
- * @todo Docblocks, implementation
+ * Basic visit validation using Sessions. One valid visit per session.
+ *
+ * @author  Lukas Niederberger <lukas.niederberger@gibmit.ch>
+ * @copyright Lukas Niederberger, 2013
+ * @license http://opensource.org/licenses/MIT The MIT License
  */
 class Validation_Session implements IVisitDriver {
 
 	/**
-	 * @todo Not implemented yet
+	 * Validate a visit for the passed page.
+	 *
+	 * @param string $page Page the visit needs to be validated for.
 	 * @return boolean True if the visit is valid.
 	 */
 	public function validate($page)
@@ -15,7 +21,7 @@ class Validation_Session implements IVisitDriver {
 		{
 			return false;
 		}
-		
+
 		$_SESSION[$page] = true;
 		return true;
 	}
